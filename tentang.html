@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Tentang Kami — Tryout SKD CPNS Gratis</title>
+<meta name="description" content="Tentang Tryout SKD CPNS Gratis — situs latihan independen untuk membantu pejuang CPNS berlatih SKD secara gratis, tanpa daftar akun.">
+<link rel="canonical" href="https://yuu078.github.io/tryout-skd/tentang.html">
+<meta property="og:title" content="Tentang Kami — Tryout SKD CPNS Gratis">
+<meta property="og:description" content="Tentang Tryout SKD CPNS Gratis — situs latihan independen untuk membantu pejuang CPNS berlatih SKD secara gratis, tanpa daftar akun.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://yuu078.github.io/tryout-skd/tentang.html">
+<style>
+:root{--bg:#f5f7fb;--card:#fff;--ink:#1a1f2b;--mute:#586174;--line:#e1e6f0;--brand:#2457d6;--brand-ink:#fff;--ok:#12795a;--bad:#b42318;--mid:#a86b0a;--soft:#eaf0ff}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0f121a;--card:#171b26;--ink:#eef1f7;--mute:#9aa4b8;--line:#2a3042;--brand:#6d9bff;--brand-ink:#0b1020;--ok:#4ad6a7;--bad:#ff8a80;--mid:#f5c26b;--soft:#1d2540}}
+:root[data-theme="dark"]{--bg:#0f121a;--card:#171b26;--ink:#eef1f7;--mute:#9aa4b8;--line:#2a3042;--brand:#6d9bff;--brand-ink:#0b1020;--ok:#4ad6a7;--bad:#ff8a80;--mid:#f5c26b;--soft:#1d2540}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+.wrap{max-width:720px;margin:0 auto;padding:16px}
+header.top{border-bottom:1px solid var(--line);background:var(--card)}
+header.top .wrap{display:flex;align-items:center;justify-content:space-between;padding-top:12px;padding-bottom:12px}
+header.top b{font-size:1.05rem}
+header.top a{color:var(--brand);font-size:.9rem;text-decoration:none;cursor:pointer;background:none;border:0;font:inherit}
+h1{font-size:1.7rem;line-height:1.2;margin:.4em 0 .3em}
+.hero p{color:var(--mute);margin:0 0 1rem}
+.cards{display:grid;gap:12px}
+@media(min-width:560px){.cards{grid-template-columns:1fr 1fr}.card.main{grid-column:1/-1}}
+button{font:inherit;color:inherit}
+.card{display:flex;flex-direction:column;gap:2px;text-align:left;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px;cursor:pointer}
+.card:hover{border-color:var(--brand)}
+.card.main{background:var(--brand);border-color:var(--brand);color:var(--brand-ink)}
+.card strong{font-size:1.1rem}
+.card .meta{font-size:.9rem;opacity:.85}
+.card .desc{font-size:.9rem;opacity:.85}
+.card .best{margin-top:6px;font-size:.85rem;font-weight:600}
+.note{color:var(--mute);font-size:.88rem;margin-top:1rem}
+.bar{display:flex;align-items:center;gap:10px;margin-bottom:12px;flex-wrap:wrap}
+.chip{background:var(--soft);color:var(--brand);font-weight:700;border-radius:999px;padding:2px 10px;font-size:.85rem}
+.prog{color:var(--mute);font-size:.9rem;flex:1}
+.timer{font-variant-numeric:tabular-nums;font-weight:700;font-size:1.1rem}
+.timer.warn{color:var(--bad)}
+.qcard{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px}
+.q{margin:0 0 14px;font-size:1.05rem}
+.opts{display:grid;gap:8px}
+.opt{display:flex;gap:10px;align-items:flex-start;text-align:left;background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:10px 12px;cursor:pointer}
+.opt b{min-width:1.4em;color:var(--mute)}
+.opt.sel{border-color:var(--brand);background:var(--soft)}
+.opt.sel b{color:var(--brand)}
+.actions{display:flex;gap:8px;margin:12px 0;flex-wrap:wrap}
+.btn{border:1px solid var(--line);background:var(--card);border-radius:10px;padding:9px 14px;cursor:pointer}
+.btn.primary{background:var(--brand);border-color:var(--brand);color:var(--brand-ink);font-weight:600}
+.btn.on{border-color:var(--mid);color:var(--mid)}
+.btn:disabled{opacity:.4;cursor:default}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(34px,1fr));gap:5px;margin:8px 0 16px;max-height:128px;overflow-y:auto;padding:3px}
+.grid button{border:1px solid var(--line);background:var(--card);border-radius:8px;padding:6px 0;cursor:pointer;font-size:.85rem}
+.grid .ans{background:var(--soft);border-color:var(--brand)}
+.grid .flag{border-color:var(--mid);box-shadow:inset 0 -3px 0 var(--mid)}
+.grid .cur{outline:2px solid var(--brand);outline-offset:1px}
+.finish{width:100%}
+.gprog{height:6px;background:var(--line);border-radius:4px;overflow:hidden;margin-bottom:12px}
+.gprog i{display:block;height:100%;background:var(--brand);transition:width .2s}
+.opt.good{border-color:var(--ok);background:color-mix(in srgb,var(--ok) 14%,transparent)}
+.opt.bad{border-color:var(--bad);background:color-mix(in srgb,var(--bad) 14%,transparent)}
+.fb{margin-top:12px;padding:10px 12px;border-radius:10px;background:var(--soft);font-size:.95rem}
+.free{display:flex;gap:8px;align-items:center;margin-top:14px;font-size:.95rem;cursor:pointer}
+.hbtns{display:flex;gap:6px}
+.score{text-align:center;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px;margin-bottom:12px}
+.score .big{font-size:2.6rem;font-weight:800;line-height:1.1}
+.badge{display:inline-block;border-radius:999px;padding:2px 12px;font-weight:700;font-size:.9rem;margin-top:6px}
+.badge.ok{background:color-mix(in srgb,var(--ok) 18%,transparent);color:var(--ok)}
+.badge.bad{background:color-mix(in srgb,var(--bad) 18%,transparent);color:var(--bad)}
+.row{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 14px;margin-bottom:8px}
+.rowtop{display:flex;justify-content:space-between;gap:8px}
+.meter{position:relative;height:10px;background:var(--bg);border-radius:6px;margin:8px 0 6px;overflow:hidden}
+.fill{height:100%;background:var(--brand)}
+.mark{position:absolute;top:-2px;bottom:-2px;width:2px;background:var(--ink)}
+.row small{color:var(--mute)}
+h3{margin:1.4rem 0 .6rem}
+.rev{background:var(--card);border:1px solid var(--line);border-left:5px solid var(--line);border-radius:10px;padding:12px 14px;margin-bottom:10px}
+.rev.ok{border-left-color:var(--ok)}.rev.mid{border-left-color:var(--mid)}.rev.bad{border-left-color:var(--bad)}
+.rev h4{margin:0 0 4px;font-size:.85rem;color:var(--mute)}
+.rev p{margin:4px 0}
+.rev .ex{color:var(--mute);font-size:.92rem}
+.toast{position:fixed;left:50%;bottom:24px;transform:translateX(-50%);background:var(--ink);color:var(--bg);padding:8px 16px;border-radius:999px;font-size:.9rem;z-index:9}
+footer{color:var(--mute);font-size:.82rem;padding-bottom:40px}
+
+.sitenav{display:flex;gap:14px;flex-wrap:wrap;padding-top:10px;padding-bottom:10px;border-bottom:1px solid var(--line)}
+.sitenav a{color:var(--brand);text-decoration:none;font-size:.92rem;font-weight:600}
+.seo{padding-top:8px}
+.seo h1{font-size:1.6rem}
+.faq h2{font-size:1.25rem;margin:1.4rem 0 .6rem}
+.faq h3{font-size:1.02rem;margin:1rem 0 .3rem}
+.faq p{margin:0 0 .6rem;color:var(--mute)}
+.article h2{font-size:1.3rem;margin:1.5rem 0 .5rem}
+.cta{display:flex;gap:8px;flex-wrap:wrap;margin:16px 0}
+.cta a{background:var(--brand);color:var(--brand-ink);border-radius:10px;padding:9px 14px;text-decoration:none;font-weight:600}
+.sitefoot nav.footlinks{display:grid;gap:14px;margin:14px 0}
+@media(min-width:560px){.sitefoot nav.footlinks{grid-template-columns:1fr 1fr 1fr}}
+.sitefoot h4{margin:0 0 6px;font-size:.9rem;color:var(--ink)}
+.sitefoot a{color:var(--brand);text-decoration:none;display:block;margin:3px 0}
+.sitefoot span{display:block;color:var(--mute);font-size:.8rem;margin-bottom:8px}
+.sitefoot a.traktir{display:inline-block;background:var(--brand);color:var(--brand-ink);font-weight:700;border-radius:999px;padding:8px 16px;text-decoration:none}
+form.mailto{display:grid;gap:10px;max-width:480px;margin-top:12px}
+form.mailto label{display:grid;gap:4px;font-size:.95rem}
+form.mailto input,form.mailto textarea{font:inherit;padding:9px 12px;border:1px solid var(--line);border-radius:10px;background:var(--card);color:var(--ink)}
+form.mailto button{background:var(--brand);color:var(--brand-ink);border:0;border-radius:10px;padding:10px 14px;font-weight:600;cursor:pointer}
+</style>
+</head>
+<body>
+<header class="top"><div class="wrap"><b><a href="./" style="color:inherit;text-decoration:none">Tryout SKD CPNS</a></b><div class="hbtns"><a href="./" class="btn" style="border:0;background:none;color:var(--brand);text-decoration:none">Beranda</a></div></div></header>
+<nav class="wrap sitenav" aria-label="Navigasi utama"><a href="./">Beranda</a><a href="./simulasi-skd/">Simulasi SKD</a><a href="./latihan-twk/">Latihan TWK</a><a href="./latihan-tiu/">Latihan TIU</a><a href="./latihan-tkp/">Latihan TKP</a><a href="./tips-skd/">Tips SKD</a></nav>
+<main class="wrap article"><h1>Tentang Tryout SKD CPNS Gratis</h1><p>Tryout SKD CPNS Gratis adalah situs latihan independen yang dibuat untuk membantu para pejuang CPNS mempersiapkan diri menghadapi Seleksi Kompetensi Dasar (SKD) tanpa harus membayar bimbingan belajar. Di sini kamu bisa mengerjakan simulasi penuh 110 soal dan latihan per kategori (TWK, TIU, TKP) lengkap dengan timer, skor, dan pembahasan — semuanya gratis dan tanpa daftar akun.</p><p>Misi kami sederhana: akses latihan yang berkualitas seharusnya tidak ditentukan oleh kemampuan membayar. Banyak calon peserta seleksi berasal dari daerah dan latar belakang ekonomi yang beragam; alat latihan yang jujur, cepat, dan bisa dibuka dari ponsel adalah bentuk kecil dukungan kami agar persaingan berlangsung lebih adil.</p><p>Seluruh soal di situs ini disusun orisinal berdasarkan kisi-kisi umum SKD yang diumumkan secara publik, dan bukan merupakan soal asli ujian. Situs ini tidak berafiliasi dengan Badan Kepegawaian Negara (BKN), Kementerian PAN-RB, maupun instansi pemerintah lainnya. Untuk informasi resmi seleksi, selalu rujuk sscasn.bkn.go.id.</p><p>Situs ini dikelola secara mandiri dan biaya operasionalnya ditanggung sendiri oleh pembuatnya. Bila situs ini membantumu, kamu bisa ikut mendukung lewat tombol traktir di bagian bawah halaman agar situs ini tetap gratis untuk semua orang.</p></main>
+<footer class="wrap sitefoot"><p>Situs latihan independen, tidak berafiliasi dengan BKN atau KemenPAN-RB. Soal dibuat orisinal untuk latihan dan bukan soal asli. Passing grade yang dipakai mengikuti pola seleksi 2024 (TWK 65, TIU 80, TKP 166); selalu cek ketentuan resmi di sscasn.bkn.go.id.</p><nav class="footlinks" aria-label="Tautan situs"><div><h4>Latihan</h4><a href="./simulasi-skd/">Simulasi SKD</a><a href="./latihan-twk/">Latihan TWK</a><a href="./latihan-tiu/">Latihan TIU</a><a href="./latihan-tkp/">Latihan TKP</a><a href="./tips-skd/">Tips Lulus SKD</a></div><div><h4>Situs</h4><a href="./">Beranda</a><a href="./tentang.html">Tentang</a><a href="./privasi.html">Kebijakan Privasi</a><a href="./ketentuan.html">Syarat &amp; Ketentuan</a><a href="./kontak.html">Kontak</a></div><div><h4>Situs Saudara</h4><a href="https://pdfkita-id.netlify.app/" target="_blank" rel="noopener">PDFKita</a><span>Kompres &amp; gabung PDF tanpa upload, aman untuk scan KTP</span><a href="https://kalkulatorduit.netlify.app/" target="_blank" rel="noopener">KalkulatorKita</a><span>Kalkulator KPR, gaji, THR, target nabung</span></div></nav><!-- GANTI username Saweria bila salah: saat ini yuuxyz --><p><a class="traktir" href="https://saweria.co/yuuxyz" target="_blank" rel="noopener">☕ Traktir pembuat situs</a></p></footer>
+</body>
+</html>

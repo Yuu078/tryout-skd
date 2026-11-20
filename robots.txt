@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://yuu078.github.io/tryout-skd/sitemap.xml
